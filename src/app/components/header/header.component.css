@@ -5,7 +5,11 @@ header {
   align-items: center;
   height: 10vh;
   background-color: #fff8e9;
-  box-shadow: 5px -5px 25px 0 #222 inset;
+  width: 100vw;
+  margin: 0;
+  box-shadow: 0px 10px 25px 1px #000000;
+  -moz-box-shadow: 0px 10px 25px 1px #000000;
+  -webkit-box-shadow: 0px 10px 25px 1px #000000;
 }
 .coment {
   font-weight: 300;
@@ -13,6 +17,10 @@ header {
 }
 .nav {
   justify-self: center;
+}
+a {
+  text-decoration: none;
+  color: red;
 }
 .titulo {
   justify-self: center;
