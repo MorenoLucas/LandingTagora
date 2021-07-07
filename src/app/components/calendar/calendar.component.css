@@ -5,6 +5,7 @@
   justify-content: center;
   align-self: center;
   margin: 0 auto;
+  width: 70vw;
 }
 .org {
   grid-column: 1;
