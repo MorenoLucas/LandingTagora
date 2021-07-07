@@ -11,16 +11,22 @@
   grid-column: 1;
   grid-row: 1;
   justify-self: center;
+  font-size: 4em;
 }
 .citas {
   grid-column: 2;
-  grid-row: 1;
+  grid-row: 1 / span 2;
   justify-self: center;
+  font-size: 3em;
+  font-weight: 300;
 }
 .cal {
   grid-column: 1;
   grid-row: 2;
   justify-self: center;
+  align-items: center;
+  margin-top: -3em;
+  text-align: center;
 }
 .cal button {
   background: #f83c3c;
@@ -30,7 +36,8 @@
 .fecha {
   grid-column: 1;
   grid-row: 3;
-  justify-self: center;
+  justify-self: start;
+  margin-left: 2em;
 }
 img {
   grid-column: 1 / span 2;
