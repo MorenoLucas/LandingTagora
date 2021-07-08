@@ -32,6 +32,7 @@
   background: #f83c3c;
   border-radius: 90px;
   color: white;
+  border: none;
 }
 .fecha {
   grid-column: 1;
