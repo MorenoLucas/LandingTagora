@@ -11,14 +11,21 @@
   grid-column: 1;
   grid-row: 1;
   justify-self: center;
+  font-weight: 700;
   font-size: 4em;
+  font-family: JosefinSans;
 }
 .citas {
   grid-column: 2;
   grid-row: 1 / span 2;
   justify-self: center;
+  margin-top: 1em;
+  margin-left: -1em;
   font-size: 3em;
+  line-height: 1.2em;
   font-weight: 300;
+  text-align: left;
+  font-family: JosefinSans;
 }
 .cal {
   grid-column: 1;
@@ -34,6 +41,7 @@
   color: white;
   border: none;
 }
+
 .fecha {
   grid-column: 1;
   grid-row: 3;

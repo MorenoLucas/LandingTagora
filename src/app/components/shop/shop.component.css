@@ -9,8 +9,15 @@
 .shop h1 {
   justify-self: center;
   align-items: center;
+  line-height: 1.3em;
   grid-column: 1;
-  font-size: 5em;
+  font-size: 4em;
+  font-weight: 500;
+  font-family: josefinSans;
+}
+.compra {
+  font-weight: bold;
+  font-size: 1.2em;
 }
 .shop img {
   justify-self: center;
