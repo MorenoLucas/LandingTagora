@@ -9,6 +9,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { FeedComponent } from './components/feed/feed.component';
 import { CalendarComponent } from './components/calendar/calendar.component';
 import { ShopComponent } from './components/shop/shop.component';
+import { SimpleModalModule } from 'ngx-simple-modal';
+import { ConfirmComponent } from './components/confirm/confirm.component';
 
 @NgModule({
   declarations: [
@@ -18,13 +20,15 @@ import { ShopComponent } from './components/shop/shop.component';
     HomeComponent,
     FeedComponent,
     CalendarComponent,
-    ShopComponent
+    ShopComponent,
+    ConfirmComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SimpleModalModule.forRoot({ container: document.body }),
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
