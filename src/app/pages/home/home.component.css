@@ -65,3 +65,9 @@ body {
   justify-self: center;
   align-self: center;
 }
+.register {
+  cursor: pointer;
+}
+.register:hover {
+  box-shadow: 0px 0px 30px 0px #00000080;
+}
